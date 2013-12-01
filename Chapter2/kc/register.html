@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Tranisitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Register User</title>
+    <style type="text/css" title="text/css" media="all">
+    label {
+        font-weight: bold;
+        width: 300px;
+        display: inline-block;
+        color: lightblue;
+        text-align: right;
+    }
+    legend { color: grey;}
+    </style>
+</head>
+<body>
+<!-- Killians Closet User Registration Form -->
+
+
+<form action="handle_registration.php" method="post">
+    
+    <fieldset>
+        <legend>Create Account</legend>
+
+        <p><label>First: <input type="text" name="first" size="40" maxlenght="40"</label></p>
+        <p><label>Last: <input type="text" name="last" size="40" maxlength="40"</label></p>
+        <p><label>Email: <input type="text" name="email" size="40" maxlength="40"</label></p>
+        <p><label>Phone: <input type="text" name="phone" size="40" maxlength="40"</label></p>
+        <p><label>Address1: <input type="text" name="addr1" size="40" maxlength="40"</label></p>
+        <p><label>Address2: <input type="text" name="addr2" size="40" maxlength="40"</label></p>
+        <p><label>City: <input type="text" name="city" size="40" maxlength="40"</label></p>
+        <p><label>State: <input type="text" name="state" size="40" maxlength="40"</label></p>
+        <p><label>Zip: <input type="text" name="zip" size="40" maxlength="40"</label></p>
+
+    </fieldset>
+    
+    <p align="center"><input type="submit" name="submit" value="Register" /></p>
+    
+</form>
+
+</body>
+
+</html>

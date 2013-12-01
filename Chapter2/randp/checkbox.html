@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Tranisitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CheckBox Form</title>
+    <style type="text/css" title="text/css" media="all">
+    label {
+        font-weight: bold;
+        color: #300ACC;
+    }
+    </style>
+</head>
+<body>
+
+<h2>Choose Your Favorite Teams</h2>
+   
+<form action="handle_check.php" method="post">
+    
+    <input type="checkbox" name="teams[]" value="Cubs" />Cubs
+    <input type="checkbox" name="teams[]" value="Sox" />Sox
+    <input type="checkbox" name="teams[]" value="Bulls" />Bulls
+    <input type="checkbox" name="teams[]" value="Bears" />Bears
+    <input type="checkbox" name="teams[]" value="Hawks" />Hawks
+    <input type="checkbox" name="teams[]" value="Fire" />Fire
+    
+    <p align="left"><input type="submit" name="submit" value="Submit" /></p>
+    
+</form>
+    
+</body>
